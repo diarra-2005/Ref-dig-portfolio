@@ -1,0 +1,143 @@
+/*entete*/
+*
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    color: white;
+    
+}
+img{
+    width: 90px;
+    height: 80px;
+}
+ul {
+    display: flex; 
+}
+li {
+    list-style: none;
+    margin-left: 50px;
+    
+}
+li a{
+    text-decoration: none;
+    color: white ;
+}
+a:hover{
+    color: black;
+}
+.dingue {
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+}
+/*corps sec1*/
+   
+.diarra {
+    content: "";
+    background-image: url(7022133E-4CDB-4B42-B8AF-CBF03567F552.jpg);
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+.text {
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    top: 100px;
+}
+
+/*corps sec2*/
+
+.troisbloc {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.troisbloc div {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3 s easee-in-out;
+    transition: center;
+}
+.troisbloc div :hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.pro {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+.bloc {
+    border: 4px solid black;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+}
+button{
+    border-radius: 10px;
+    width: 95px;
+    background-color: red;
+    color: white;
+}
+ 
+/*corps sec3*/
+ 
+.moi{
+
+}
+
+fieldset {
+    border: 5px solid black;
+    background-color:  white;
+    position: relative;
+    width: 25%;
+    height: 67%;
+    border-radius: 10px 5px 10px 5px;
+    
+    
+}
+
+input{
+    width: 300px;
+}
+textarea{
+    width: 300px;
+
+}
+.titreform {
+    text-align: center;
+}
+
+
+
+
+footer {
+    background-color: white;
+    padding: 10px;
+    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: red;
+    background-color: red;
+}
+footer p{
+   color: white;
+    
+}
+#toi {
+    width: 30px;
+    height: 30px;
+}
